@@ -1,4 +1,4 @@
-class Test
+class ToString
 {
 	String name;
 	int rollno;
