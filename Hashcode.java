@@ -5,10 +5,6 @@ class Hashcode
 	{
 		this.i = i;
 	}
-	public int hashcode()
-	{
-		return i;
-	}
 	public static void main(String args[])
 	{
 		Hashcode s1 = new Hashcode(10);
