@@ -7,10 +7,6 @@ class Test
 		this.name = name;
 		this.rollno = rollno;
 	}
-	public String toString()
-	{
-		return name + "..." + rollno;
-	}
 	public static void main(String args[])
 	{
 		Test s1 = new Test("durga",101);
