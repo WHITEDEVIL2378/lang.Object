@@ -14,7 +14,7 @@ class Equals
 		Equals s3 = new Equals("durga",101);
 		Equals s4 = s1;
 		System.out.println(s1.equals(s2));
-		System.out.println(s1.equals(s3));
+		System.out.println(s1.equals(s3));  // reference comparison not content comparison
 		System.out.println(s1.equals(s4));
 }
 }
