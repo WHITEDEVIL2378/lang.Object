@@ -13,8 +13,8 @@ class Equals
 		Equals s2 = new Equals("Ravi",102);
 		Equals s3 = new Equals("durga",101);
 		Equals s4 = s1;
-		System.out.println(s1.equals(s2));
-		System.out.println(s1.equals(s3));  // reference comparison not content comparison
-		System.out.println(s1.equals(s4));
+		System.out.println(s1.equals(s2));	  // false
+		System.out.println(s1.equals(s3));  // reference comparison not content comparison // false
+		System.out.println(s1.equals(s4));  // true
 }
 }
